@@ -7,7 +7,9 @@ export function App() {
   console.log('Hello');
   return (
     <>
-      <Heading />
+      <Heading attr={123456} attr2='String'>
+        Olá Mundo 1
+      </Heading>
       <Body />
     </>
   );
