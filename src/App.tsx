@@ -1,16 +1,18 @@
 import './styles/theme.css';
 import './styles/global.css';
-import { Heading } from './components/Heading/Heading';
-import { Body } from './components/Body/Body';
+import { Container } from './components/Container/index.tsx';
+import { Heading } from './components/Heading/index.tsx';
 
 export function App() {
-  console.log('Hello');
   return (
     <>
-      <Heading attr={123456} attr2='String'>
-        Olá Mundo 1
-      </Heading>
-      <Body />
+      <Container>
+        <Heading>LOGO</Heading>
+      </Container>
+
+      <Container>
+        <Heading>MENU</Heading>
+      </Container>
     </>
   );
 }
