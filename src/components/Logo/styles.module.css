@@ -16,11 +16,12 @@
   font-size: 4.2rem;
   font-weight: bold;
   color: var(--primary);
-  transition: all 0.2s easy-in-out;
+  transition: filter 1s ease, transform 1s ease-in-out;
 }
 
 .logoLink:hover {
   filter: brightness(50%);
+  transform: scale(1.1);
 }
 
 .logoLink svg {
