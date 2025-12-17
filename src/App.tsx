@@ -3,6 +3,7 @@ import './styles/global.css';
 import { Container } from './components/Container/index.tsx';
 import { Logo } from './components/Logo/index.tsx';
 import { Menu } from './components/Menu/index.tsx';
+import { CountDown } from './components/CountDown/index.tsx';
 
 export function App() {
   return (
@@ -13,6 +14,10 @@ export function App() {
 
       <Container>
         <Menu />
+      </Container>
+
+      <Container>
+        <CountDown />
       </Container>
     </>
   );
